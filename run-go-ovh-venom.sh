@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 output="$(venom run ./tests/venom)"
 if ! [[ $output =~ "SUCCESS" ]]
 then
