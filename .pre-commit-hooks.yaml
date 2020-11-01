@@ -87,3 +87,9 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `go mod vendor`, requires golang"
+-   id: go-ovh-venom
+    name: 'go-ovh-venom'
+    entry: run-go-ovh-venom.sh
+    files: '\.go$'
+    language: 'script'
+    description: "Runs `venom run`, requires golang and ovh/venom bin"
